@@ -1,7 +1,7 @@
 <template>
   <div class="w-full flex justify-left items-start
    text-5xl font-dela uppercase relative block">  
-    <div class="title h-16 w-64 text-center overflow-hidden relative">
+    <div class="title h-16 w-72 text-center overflow-hidden relative">
       <div class="absolute w-full block text-white">
         <span class="letter inline-block">H</span>
         <span class="letter inline-block">a</span>
@@ -63,6 +63,9 @@ onMounted( () => {
 </script>
 
 <style scoped>
+.letter, .letter2{
+  margin-right:3px;
+}
 .letter2{ 
   -webkit-text-stroke: 1px white;
   -webkit-text-fill-color: transparent;

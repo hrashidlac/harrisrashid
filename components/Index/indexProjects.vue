@@ -9,12 +9,12 @@
 <script setup lang="ts">
 const { $gsap } = useNuxtApp()
 onMounted( () => {
-  let tl = $gsap.timeline().delay(2);
+  let tl = $gsap.timeline().delay(6);
   tl.to(".out", { 
     y: -30, 
     opacity: 1,
     ease: "power1.out",
-    duration: 1, 
+    duration: 1.5, 
     stagger: 0.25
   });  
 })
