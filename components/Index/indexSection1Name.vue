@@ -1,7 +1,7 @@
 <template>
   <div class="w-full flex justify-left items-start
    text-5xl font-dela uppercase relative block mt-2">  
-    <div class="title h-16 w-72 text-center overflow-hidden relative">
+    <div class="title h-16 w-72 text-left relative">
       <div class="absolute w-full block text-white">
         <span class="letter inline-block">H</span>
         <span class="letter inline-block">a</span>
@@ -26,7 +26,7 @@
 <script setup lang="ts">
 const { $gsap } = useNuxtApp()
 onMounted( () => {
-  let tl = $gsap.timeline({repeat: -1}).delay(1);
+  let tl = $gsap.timeline({repeat: -1, repeatDelay:3.5,}).delay(3);
   tl.to(".letter", { 
     y: -60, 
     ease: "power1.out",
@@ -43,7 +43,7 @@ onMounted( () => {
     opacity: 1
   });
 
-  let tl2 = $gsap.timeline({repeat: -1}).delay(1);
+  let tl2 = $gsap.timeline({repeat: -1, repeatDelay:3.5,}).delay(3);
   tl2.set(".letter2", { y: 60});
   tl2.to(".letter2", { 
     y: -0,
@@ -56,7 +56,8 @@ onMounted( () => {
     y: -60, 
     ease: "power1.out",
     duration: .8, 
-    stagger: 0.25
+    stagger: 0.25,
+    opacity:0
   });
   
 })
@@ -64,7 +65,7 @@ onMounted( () => {
 
 <style scoped>
 .letter, .letter2{
-  margin-right:3px;
+  margin-right:1px;
 }
 .letter2{ 
   -webkit-text-stroke: 1px white;
