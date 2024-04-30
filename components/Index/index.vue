@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen w-full bg-red flex justify-center items-center
+  <div class="header h-screen w-full bg-red flex justify-center items-center
    text-5xl font-dela uppercase relative">  
     <div class="title h-16 w-64 text-center overflow-hidden relative">
       <div class="absolute w-full block text-white">
@@ -60,6 +60,10 @@ onMounted( () => {
 </script>
 
 <style scoped>
+.header{
+  background: url("/bg.jpg") center center;
+  background-size:cover;
+}
 .letter2{ 
   -webkit-text-stroke: 1px white;
   -webkit-text-fill-color: transparent;
