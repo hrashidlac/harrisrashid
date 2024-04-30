@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-8 mt-8 border-solid border-0 border-t border-white text-2xl uppercase text-white font-jojo">  
+  <div class="pt-8 mt-8 border-solid border-0 border-t border-white text-lg lg:text-2xl uppercase text-white font-jojo">  
     <div class="mb-2 out">Creative Technologist.</div> 
     <div class="mb-2 out">Digital Strategist.</div> 
     <div class="mb-2 out">Web Developer Extraordinaire.</div>

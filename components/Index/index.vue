@@ -3,6 +3,7 @@
     <indexAnimation/>
     <indexIntro/>
   </div>
+  <!-- <indexScroll2/> -->
 </template>
 
 <script setup lang="ts">
@@ -12,5 +13,6 @@
 .header{
   background: url("/bg.jpg") center center;
   background-size:cover;
+  background-attachment: fixed;
 }
 </style>
