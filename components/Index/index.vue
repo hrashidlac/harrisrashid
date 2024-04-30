@@ -2,6 +2,7 @@
   <div class="header h-screen p-8 lg:p-16">  
     <indexAnimation/>
     <indexIntro/>
+    <indexProjects/>
   </div>
   <!-- <indexScroll2/> -->
 </template>

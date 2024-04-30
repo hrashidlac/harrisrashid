@@ -12,12 +12,12 @@
       </div>
 
       <div class="absolute w-full block text-white">
-        <span class="letter2 inline-block">R</span>
-        <span class="letter2 inline-block">a</span>
-        <span class="letter2 inline-block">s</span>
-        <span class="letter2 inline-block">h</span>
-        <span class="letter2 inline-block">i</span>
-        <span class="letter2 inline-block">d</span>
+        <span class="letter2 inline-block opacity-0">R</span>
+        <span class="letter2 inline-block opacity-0">a</span>
+        <span class="letter2 inline-block opacity-0">s</span>
+        <span class="letter2 inline-block opacity-0">h</span>
+        <span class="letter2 inline-block opacity-0">i</span>
+        <span class="letter2 inline-block opacity-0">d</span>
       </div>
     </div>  
   </div>
@@ -26,28 +26,31 @@
 <script setup lang="ts">
 const { $gsap } = useNuxtApp()
 onMounted( () => {
-  let tl = $gsap.timeline({repeat: -1});
+  let tl = $gsap.timeline({repeat: -1}).delay(1);
   tl.to(".letter", { 
     y: -60, 
     ease: "power1.out",
     duration: .8, 
-    stagger: 0.25
+    stagger: 0.25,
+    opacity: 0
   });
   tl.set(".letter", { y: 60});
   tl.to(".letter", { 
     y: -0,
     ease: "power1.out",
     duration: .8, 
-    stagger: 0.25
+    stagger: 0.25,
+    opacity: 1
   });
 
-  let tl2 = $gsap.timeline({repeat: -1});
+  let tl2 = $gsap.timeline({repeat: -1}).delay(1);
   tl2.set(".letter2", { y: 60});
   tl2.to(".letter2", { 
     y: -0,
     ease: "power1.out",
     duration: .8, 
-    stagger: 0.25
+    stagger: 0.25,
+    opacity: 1
   });
   tl2.to(".letter2", { 
     y: -60, 
