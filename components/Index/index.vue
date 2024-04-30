@@ -1,15 +1,12 @@
 <template>
-  <div class="header h-screen p-8 lg:p-16">  
-    <indexAnimation/>
+  <div class="header p-8 lg:p-16">  
+    <indexNameAnimation/>
     <indexIntro/>
     <indexProjects/>
+    <indexScroll2/>
+    <indexContact/>
   </div>
-  <!-- <indexScroll2/> -->
 </template>
-
-<script setup lang="ts">
-</script>
-
 <style scoped>
 .header{
   background: url("/bg.jpg") center center;

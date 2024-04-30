@@ -1,6 +1,6 @@
 <template>
   <div class="w-full flex justify-left items-start
-   text-5xl font-dela uppercase relative block">  
+   text-5xl font-dela uppercase relative block mt-2">  
     <div class="title h-16 w-72 text-center overflow-hidden relative">
       <div class="absolute w-full block text-white">
         <span class="letter inline-block">H</span>
