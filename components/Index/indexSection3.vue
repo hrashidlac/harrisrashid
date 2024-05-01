@@ -1,9 +1,6 @@
 <template>
-  <div class="trigger text-2xl uppercase text-white font-jojo h-screen">  
+  <div class="trigger text-2xl uppercase text-white font-jojo lg:h-screen">  
     <div class="text opacity-0">
-      <!-- <div class="text1 mb-2 out">Creative Technologist.</div> 
-      <div class="text2 mb-2 out">Digital Strategist.</div> 
-      <div class="text3 mb-2 out">Web Developer Extraordinaire.</div> -->
       <div class="mb-2 text-lg lg:text-xl uppercase text-white font-dela">Holla At Me</div> 
       <div class="h-1 w-full border-solid border-0 border-t border-white"></div>
       <div class="mt-16">
@@ -77,7 +74,7 @@ onMounted( () => {
     //markers: true
   }
 });
-tl.to(".text", {y: -50, opacity:1, duration: 1})
+tl.to(".text", {y: 50, opacity:1, duration: 1})
 })
 </script>
 

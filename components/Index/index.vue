@@ -1,10 +1,10 @@
 <template>
   <div class="p-8 lg:p-16 header">  
-    <nav class="text-white text-center">
+    <!-- <nav class="text-white text-center">
       <button id="section1Btn" @click="section1">Projects</button>
       <button id="section2Btn" @click="section2">Experience</button>
       <button id="section3Btn" @click="section3">Contact</button>
-    </nav>
+    </nav> -->
     <indexSection1 id="section1"/>
     <indexSection2 id="section2"/>
     <indexSection3 id="section3"/>

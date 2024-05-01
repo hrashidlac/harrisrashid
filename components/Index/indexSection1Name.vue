@@ -26,7 +26,7 @@
 <script setup lang="ts">
 const { $gsap } = useNuxtApp()
 onMounted( () => {
-  let tl = $gsap.timeline({repeat: -1, repeatDelay:3.5,}).delay(3);
+  let tl = $gsap.timeline({repeat: -1, repeatDelay:2.5,}).delay(3);
   tl.to(".letter", { 
     y: -60, 
     ease: "power1.out",
@@ -43,7 +43,7 @@ onMounted( () => {
     opacity: 1
   });
 
-  let tl2 = $gsap.timeline({repeat: -1, repeatDelay:3.5,}).delay(3);
+  let tl2 = $gsap.timeline({repeat: -1, repeatDelay:2.5,}).delay(3);
   tl2.set(".letter2", { y: 60});
   tl2.to(".letter2", { 
     y: -0,
