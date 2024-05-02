@@ -1,7 +1,7 @@
 <template>
   <div class="w-full flex justify-center items-start
-   text-5xl font-dela uppercase relative block mt-2">  
-    <div class="title h-16 w-72 text-left relative">
+   text-3xl lg:text-5xl font-dela uppercase relative block mt-2">  
+    <div class="title h-12 lg:h-16 w-64 lg:w-72 text-center relative">
       <div class="absolute w-full block text-white">
         <span class="letter inline-block">H</span>
         <span class="letter inline-block">a</span>
