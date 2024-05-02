@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full flex justify-left items-start
+  <div class="w-full flex justify-center items-start
    text-5xl font-dela uppercase relative block mt-2">  
     <div class="title h-16 w-72 text-left relative">
       <div class="absolute w-full block text-white">
