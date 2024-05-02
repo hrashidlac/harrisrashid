@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen">  
+  <div class="lg:h-screen">  
     <indexSection1Name />
     <indexSection1Intro />
   </div>
