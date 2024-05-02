@@ -26,12 +26,12 @@
 <script setup lang="ts">
 const { $gsap } = useNuxtApp()
 onMounted( () => {
-  let tl = $gsap.timeline({repeat: -1, repeatDelay:2.5,}).delay(3);
+  let tl = $gsap.timeline({repeat: -1, repeatDelay:2.5}).delay(3);
   tl.to(".letter", { 
     y: -60, 
     ease: "power1.out",
     duration: .8, 
-    stagger: 0.25,
+    stagger: 0.2,
     opacity: 0
   });
   tl.set(".letter", { y: 60});
@@ -39,24 +39,24 @@ onMounted( () => {
     y: -0,
     ease: "power1.out",
     duration: .8, 
-    stagger: 0.25,
+    stagger: 0.2,
     opacity: 1
   });
 
-  let tl2 = $gsap.timeline({repeat: -1, repeatDelay:2.5,}).delay(3);
+  let tl2 = $gsap.timeline({repeat: -1, repeatDelay:2.5}).delay(3);
   tl2.set(".letter2", { y: 60});
   tl2.to(".letter2", { 
     y: -0,
     ease: "power1.out",
     duration: .8, 
-    stagger: 0.25,
+    stagger: 0.2,
     opacity: 1
   });
   tl2.to(".letter2", { 
     y: -60, 
     ease: "power1.out",
     duration: .8, 
-    stagger: 0.25,
+    stagger: 0.2,
     opacity:0
   });
   

@@ -5,14 +5,14 @@
         <div class="lg:col-span-4 px-8">
           <img src="/headshot_harris_rashid.jpg" class="bg-white rounded-md p-4 w-full contrast-100 saturate-100 opacity-0 profile">
         </div>
-        <div class="lg:col-span-8 text-lg lg:text-xl uppercase text-black lg:pt-12">
-          <div class="mb-2 fade out opacity-0">Creative Technologist.</div> 
-          <div class="mb-2 fade out opacity-0">Digital Strategist.</div> 
-          <div class="mb-2 fade out opacity-0 ">
+        <div class="lg:col-span-8 text-base lg:text-xl uppercase text-black lg:pt-12">
+          <div class="mb-4 fade out opacity-0">Creative Technologist.</div> 
+          <div class="mb-4 fade out opacity-0">Digital Strategist.</div> 
+          <div class="mb-4 fade out opacity-0 ">
             <div class="inline-block mr-2">Web Developer</div>
             <div class="inline-block flip">Extraordinaire</div>.
           </div>
-          <div class="text-sm mt-2 fade opacity-0">
+          <div class="text-sm mt-6 fade opacity-0">
             <a href="mailto:hello@harrisrashid.com" class="hover:underline text-white">hello@harrisrashid.com</a>
           </div>
         </div>
@@ -23,7 +23,7 @@
 <script setup lang="ts">
 const { $gsap } = useNuxtApp()
 onMounted( () => {
-  let tl = $gsap.timeline().delay(.5);
+  let tl = $gsap.timeline().delay(1.5);
   tl.to(".fade", { 
     y: -30, 
     opacity: 1,
@@ -42,7 +42,7 @@ onMounted( () => {
     repeatDelay:1.5,
     yoyo: true
   }); 
-  let tl3 = $gsap.timeline().delay(2.5);
+  let tl3 = $gsap.timeline().delay(.5);
   tl3.to(".profile", { 
     y: -65,
     x: -10, 

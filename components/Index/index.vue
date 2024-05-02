@@ -6,7 +6,7 @@
       <button id="section3Btn" @click="section3">Contact</button>
     </nav> -->
     <indexSection1 id="section1"/>
-    <indexSection2 id="section2"/>
+    <!-- <indexSection2 id="section2"/> -->
     <indexSection3 id="section3"/>
   </div>
 </template>
