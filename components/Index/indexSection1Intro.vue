@@ -5,7 +5,7 @@
         <div class="lg:col-span-4 px-8">
           <img src="/headshot_harris_rashid.jpg" class="bg-white rounded-md p-4 w-full contrast-100 saturate-100 opacity-0 profile">
         </div>
-        <div class="lg:col-span-8 text-base lg:text-xl uppercase text-black lg:pt-12">
+        <div class="lg:col-span-8 text-base lg:text-xl uppercase text-black lg:pt-8">
           <div class="mb-4 fade out opacity-0">Creative Technologist.</div> 
           <div class="mb-4 fade out opacity-0">Digital Strategist.</div> 
           <div class="mb-4 fade out opacity-0 ">

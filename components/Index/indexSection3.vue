@@ -22,7 +22,7 @@
               </label>
             </div>
             <div class="md:w-2/3">
-              <input class="bg-gray-200 appearance-none  border-black rounded w-full py-2 px-4 text-black leading-tight focus:outline-none focus:bg-white focus:border-red" id="inline-password" type="password" placeholder="">
+              <input class="bg-gray-200 appearance-none  border-black rounded w-full py-2 px-4 text-black leading-tight focus:outline-none focus:bg-white focus:border-red" id="inline-email" type="email" placeholder="">
             </div>
           </div>
           <div class="md:flex md:items-center">
