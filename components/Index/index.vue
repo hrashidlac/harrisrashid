@@ -1,5 +1,6 @@
 <template>
-  <div class="p-8 lg:p-16 header">  
+  <div class="p-8 lg:p-16 header"> 
+    <indexForm :is="'script'"></indexForm> 
     <!-- <nav class="text-white text-center">
       <button id="section1Btn" @click="section1">Projects</button>
       <button id="section2Btn" @click="section2">Experience</button>
