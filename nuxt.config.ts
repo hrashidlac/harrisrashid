@@ -1,5 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxtjs/partytown", "@nuxtjs/tailwindcss", "@nuxt/fonts"]
+  modules: ["@nuxtjs/tailwindcss", "@nuxt/fonts"]
 })
