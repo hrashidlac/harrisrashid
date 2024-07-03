@@ -24,7 +24,7 @@
 
 <style scoped>
 .header{
-
+    height:100vh;
     background: linear-gradient(228deg, #ff0000, #f0e002, #106b07, #09f7ee);
     background-size: 800% 800%;
 
