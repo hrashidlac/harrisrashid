@@ -2,9 +2,9 @@
   <div class="mt-4 lg:mt-16 border-solid border-0 border-t border-white/50 font-jojo pt-16 lg:pt-28">  
     <div class="pre opacity-0 w-full bg-white/20 rounded-md p-8 lg:p-12 lg:pb-0 shadow-2xl">
       <div class="grid md:grid-cols-12 lg:gap-12">
-        <div class="lg:col-span-4 px-8">
+        <!-- <div class="lg:col-span-4 px-8">
           <img src="/headshot_harris_rashid.png" class="w-full mb-12 contrast-100 saturate-100 opacity-0 profile">
-        </div>
+        </div> -->
         <div class="lg:col-span-8 text-base lg:text-xl uppercase text-black lg:pt-8">
           <div class="mb-4 fade out opacity-0">Creative Technologist.</div> 
           <div class="mb-4 fade out opacity-0">Digital Strategist.</div> 
